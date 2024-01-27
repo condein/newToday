@@ -54,6 +54,7 @@
   width: 80%;
   /* border: 1px solid red; */
   display: flex;
+  gap: 15px;
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
@@ -154,4 +155,19 @@ progress {
   font-size: 12px;
   text-decoration: underline;
   padding: 30px;
+}
+
+/* ///////////////////////////////////////////// */
+.progress-bar {
+  height: 30px;
+  width: 100%;
+  background-color: rgba(71, 163, 0, 0.1);
+  border-radius: 15px;
+}
+.progress-value {
+  height: 30px;
+  width: 100%;
+  background-color: #48a300;
+  width: 40%;
+  border-radius: 15px;
 }
