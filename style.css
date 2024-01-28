@@ -75,89 +75,6 @@ progress {
 }
 /* // checkbox //  */
 
-.third {
-  width: 80%;
-  margin: auto;
-  /* border: 2px solid black; */
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 20px;
-  gap: 30px;
-}
-
-.checkbox-container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 15px;
-  margin-top: 12px;
-}
-
-.checkbox-container input {
-  position: absolute;
-  opacity: 0;
-  cursor: pointer;
-}
-
-.checkmark {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 20px;
-  width: 20px;
-  background-color: #eee;
-  border: 1px solid #aaa;
-  border-radius: 5px;
-  border-radius: 50%;
-  margin: 0px 0 0 10px;
-}
-
-.checkbox-container:hover input ~ .checkmark {
-  background-color: #ccc;
-}
-
-.checkbox-container input:checked ~ .checkmark {
-  background-color: #2196f3;
-}
-
-.checkmark:after {
-  content: "";
-  position: absolute;
-  display: none;
-}
-
-.checkbox-container input:checked ~ .checkmark:after {
-  display: block;
-}
-
-.checkbox-container .checkmark:after {
-  left: 9px;
-  top: 5px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 3px 3px 0;
-  transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
-.first-box {
-  border: 0.5px solid rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.301);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  width: 100%;
-}
-.name {
-  font-size: 12px;
-  text-decoration: underline;
-  padding: 30px;
-}
-
-/* ///////////////////////////////////////////// */
 .progress-bar {
   height: 30px;
   width: 100%;
@@ -171,3 +88,64 @@ progress {
   width: 40%;
   border-radius: 15px;
 }
+
+.third {
+  /* height: 14rem; */
+  width: 80%;
+  margin: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* margin-top: 20px; */
+}
+
+/* ////////////// */
+/* ////////////// */
+
+.outer {
+  height: 3rem;
+  width: 100%;
+  border: 2px solid rgb(255, 0, 0);
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 15px;
+}
+.circle {
+  height: 25px;
+  width: 25px;
+  border: 1px solid rgb(255, 0, 0);
+  border-radius: 50%;
+}
+
+input {
+  width: 12.6rem;
+  height: 2.3rem;
+  border: none;
+  text-align: center;
+  font-size: 1.1rem;
+  background-color: white;
+  outline: none;
+}
+.clicked {
+  background-color: rgb(224, 41, 41);
+}
+
+/* ////////////// */
+/* ////////////// */
+
+.name {
+  font-size: 12px;
+  text-decoration: underline;
+  padding: 30px;
+  color: #48a300;
+}
+.bottonName {
+  margin-top: 20px;
+}
+
+/* ///////////////////////////////////////////// */
