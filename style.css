@@ -112,7 +112,7 @@ progress {
   margin: auto;
   margin-top: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   border-radius: 15px;
 }
@@ -124,7 +124,7 @@ progress {
 }
 
 input {
-  width: 12.6rem;
+  width: 6.6rem;
   height: 2.3rem;
   border: none;
   text-align: center;
