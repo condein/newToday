@@ -79,14 +79,14 @@ progress {
 .progress-bar {
   height: 30px;
   width: 100%;
-  background-color: rgba(71, 163, 0, 0.1);
+  background-color: rgba(57, 131, 0, 0.199);
   border-radius: 15px;
 }
 .progress-value {
   height: 30px;
   width: 100%;
   background-color: #48a300;
-  width: 40%;
+  width: 0%;
   border-radius: 15px;
 }
 
